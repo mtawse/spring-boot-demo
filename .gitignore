@@ -1,36 +1,33 @@
-# IDEA
-.idea/
-out/
-output/
-**/build/
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-**/gradle_build/
-*.iml
-**/*.iml
-*.ipr
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
 *.iws
+*.iml
+*.ipr
 
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# OSX
-.DS_Store
-.AppleDouble
-.LSOverride
-
-## Java
-# either the 3rd party diff or IDEA:
-*.java.orig
-
-# Package Files
-**/build/libs/*.jar
-*.war
-*.ear
-
-#Gradle
-.gradle
-*/.gradle
-
-# Logging
-*.log
-*.log.gz
-*.log-*.gz
-logs/
+### VS Code ###
+.vscode/
